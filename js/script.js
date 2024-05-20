@@ -1,10 +1,4 @@
-let continuar=true;
-while (continuar) {
-    let monto = parseFloat(prompt("Ingrese monto a invertir: "));
-    let tiempo = parseFloat(prompt("Ingrese los meses que invertirá su dinero (teniendo en cuenta que hasta 6 meses el interés mensual es del 3%, luego aumenta al 5%):"));
-    inversiones(monto, tiempo);
-    continuar = confirm("Presiona Aceptar para calcular su proxima inversion");
-}
+
     function inversiones(monto,tiempo){
     if(tiempo<6){
         let interesTotal=monto*tiempo*0.03;
@@ -21,3 +15,10 @@ while (continuar) {
         
     }
     }
+    let continuar=true;
+while (continuar) {
+    let monto = parseFloat(prompt("Ingrese monto a invertir: "));
+    let tiempo = parseFloat(prompt("Ingrese los meses que invertirá su dinero (teniendo en cuenta que hasta 6 meses el interés mensual es del 3%, luego aumenta al 5%):"));
+    inversiones(monto,tiempo);
+    continuar = confirm("Presiona Aceptar para calcular su proxima inversion");
+}
