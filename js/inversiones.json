@@ -1,0 +1,12 @@
+[
+    {"nombreInversion":"Corto Plazo",
+    "plazo":"Inversion menor a 6 meses",
+    "interes":"Ineteres 3% mensual",
+    "descripcion":"Inversion ideal para aquella persona que necesite un rendimiento en corto tiempo para pagar deudas por ejemplo"
+    },
+    {"nombreInversion":"Largo Plazo",
+    "plazo":"Inversion mayor a 6 meses",
+    "interes":"Ineteres 5% mensual",
+    "descripcion":"Inversion ideal para aquella persona que necesite un rendimiento a largo plazo con la idea de comprar un inmueble , planificar un viaje o adquirir un vehiculo"
+    }
+]

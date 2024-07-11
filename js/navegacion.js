@@ -9,7 +9,7 @@ nav.appendChild(ul);
 header.className= 'nav-bar';
 
 
-const links=["Index","Nosotros","Contacto"];
+const links=["Index","Inversion","Contacto"];
 
 
 for(const link of links){

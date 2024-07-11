@@ -59,3 +59,19 @@ body {
 .swal2-styled{
     background-color: #120478 !important;
 }
+.cart_title {
+    background-color: #c2c2c2;
+    height: 1.5rem;
+}
+.card{
+    align-items: center;
+    background-color: #9c94e8a5;
+}
+.tarjetas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 4rem;
+}

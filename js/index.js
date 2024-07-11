@@ -4,7 +4,8 @@
     const inputDni=document.getElementById('dni');
     const inputMonto=document.getElementById('monto');
     const inputTiempo=document.getElementById('tiempo');
-    const Btn = document.getElementById('Btn')
+    const Btn = document.getElementById('Btn');
+    const apiResultDiv = document.getElementById('apiResult');
 
 
     const arrayInversores = localStorage.getItem('inversores');
@@ -36,7 +37,7 @@
         }
     }
     
-
+    
     Btn.addEventListener('click', function() {
         let nombre = inputNombre.value;
         let dni = inputDni.value;
